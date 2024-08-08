@@ -116,7 +116,7 @@ TextBoxCorner.Parent = TextBox
 
 local AssetImage = Instance.new("ImageLabel")
 AssetImage.Size = UDim2.new(0, 52, 0, 52)
-AssetImage.Position = UDim2.new(0.5, -220, 0, 110) 
+AssetImage.Position = UDim2.new(0.5, -250, 0, 110) -- Local do Asset
 AssetImage.Image = "rbxassetid://12817057882"
 AssetImage.ImageColor3 = Color3.fromRGB(255, 255, 255)
 AssetImage.BackgroundTransparency = 1
@@ -153,7 +153,7 @@ GetKey.MouseButton1Click:Connect(function()
 end)
 
 local function validateKey(key)
-    return key == "Key" 
+    return key == "Key" -- Substitua por sua chave
 end
 
 CheckKey.MouseButton1Click:Connect(function()
@@ -163,6 +163,8 @@ CheckKey.MouseButton1Click:Connect(function()
         TextBox.Text = ""
         wait(1)
         ScreenGui:Destroy()
+
+        -- Coloque seu script aqui
         loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
     else
         TextBox.PlaceholderText = "Invalid key. Try again."
