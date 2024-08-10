@@ -7,7 +7,7 @@ end, {
 
 Window:Game({
     Status = "Working",
-    Script = "https://raw.githubusercontent.com/Skinny-yz/My-Scripts/main/TPS/Mobile",
+    Script = "https://raw.githubusercontent.com/Skinny-yz/My-Scripts/main/TPS/Mobile.lua",
     Custom = {
         Name = "TPS Street Soccer Mobile"
     },
