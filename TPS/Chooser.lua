@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinny-yz/Librarys/main/LoaderV2.lua"), "W-Skinny Hub Loader")()
-local Window = Library:Window("Loader", function(Script, Func)
+local Window = Library:Window("Loader[don't spam execution]", function(Script, Func)
     Func:TryExecuteURL(Script)
 end, {
     Translate = true
