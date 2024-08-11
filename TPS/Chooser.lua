@@ -16,12 +16,12 @@ Window:Game({
 })
 
 Window:Game({
-    Status = "Detected",
-    Script = "",
+    Status = "Working",
+    Script = "https://raw.githubusercontent.com/Skinny-yz/My-Scripts/main/TPS/PC.lua",
     Custom = {
         Name = "TPS Street Soccer PC"
     },
-    UpdateDate = Window:GetDate("Local", "10/08/2024"),
+    UpdateDate = Window:GetDate("Local", "11/08/2024"),
     Creator = "Skinny"
 })
 
