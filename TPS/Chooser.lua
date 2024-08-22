@@ -35,4 +35,10 @@ Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinny-yz/My-Scripts/main/TPS/Mobile.lua"))()
 end})
 
+Scripts:AddButton({
+Name = "TPS Street Soccer AppleWare",
+Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinny-yz/My-Scripts/main/TPS/AppleWare.lua"))()
+end})
+
 Scripts:AddParagraph("Tired of Keysystem?","Join your Discord and pay 80 robux to get 1 month of the script without keys")
