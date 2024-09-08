@@ -58,7 +58,7 @@ Beta.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 Beta.Position = UDim2.new(0.5, 0, 0, 95)
 Beta.Size = UDim2.new(0, 190, 0, 40)
 Beta.Font = Enum.Font.SourceSans
-Beta.Text = "Beta"
+Beta.Text = "Auto Farm Goals"
 Beta.TextColor3 = Color3.fromRGB(255, 255, 255)
 Beta.TextSize = 25
 
