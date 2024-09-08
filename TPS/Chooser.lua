@@ -137,7 +137,7 @@ animateIn()
 Beta.MouseButton1Click:Connect(function()
   animateOut()
   wait(0.1)
-  --Soon
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinny-yz/My-Scripts/main/TPS/AutoFarmGoals.lua"))()
 end)
 
 Pc.MouseButton1Click:Connect(function()
