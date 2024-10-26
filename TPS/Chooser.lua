@@ -40,7 +40,7 @@ Title.BackgroundTransparency = 1.000
 Title.Position = UDim2.new(0.5, 0, 0, 0)
 Title.Size = UDim2.new(0, 320, 0, 40)
 Title.Font = Enum.Font.SourceSansBold
-Title.Text = "Byte Hub Choose Script"
+Title.Text = "Chooser"
 Title.TextColor3 = Color3.fromRGB(43, 169, 228)
 Title.TextSize = 30
 
