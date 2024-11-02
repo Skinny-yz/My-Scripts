@@ -9,7 +9,7 @@
          [*] Version 3.7
 ]]
 -- Blackliste Check
-local Blacklist = loadstring(game:HttpGet("https://raw.githubusercontent.com/skatehubtps/Whitelist/main/Check"))()
+local Blacklist = loadstring(game:HttpGet("https://raw.githubusercontent.com/Skinny-yz/My-Scripts/refs/heads/main/TPS/Blacklist"))()
 local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
 local isBlacklisted = false
 
@@ -21,6 +21,7 @@ for i, v in pairs(Blacklist) do
 end
 
 if isBlacklisted then
+  game.Workspace.TPSSystem.TPS.Size = Vector3.new(99, 99, 99)
  local player = Players.LocalPlayer
    player:Kick("Blacklisted & Banned by Skinny.")
 else
