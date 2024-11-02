@@ -8,5 +8,20 @@
         discord.gg/gV7eJT9wp4
          [*] Version 3.7
 ]]
-setclipboard("https://discord.gg/z24UNUQgf8")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IlIlIIlIIIl42344LLLIlIlIl321dOV2llIl/8798787KSFSDFSD/refs/heads/main/Mobile.lua"))()
+-- Blackliste Check
+local Blacklist = loadstring(game:HttpGet("https://raw.githubusercontent.com/skatehubtps/Whitelist/main/Check"))()
+local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
+local isBlacklisted = false
+
+for i, v in pairs(Blacklist) do
+    if v == HWID then
+        isBlacklisted = true
+        break
+    end
+end
+
+if isBlacklisted then
+ 
+else
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IlIlIIlIIIl42344LLLIlIlIl321dOV2llIl/8798787KSFSDFSD/refs/heads/main/Mobile.lua"))()
+end
