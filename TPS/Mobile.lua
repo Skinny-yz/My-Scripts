@@ -21,9 +21,9 @@ for i, v in pairs(Blacklist) do
 end
 
 if isBlacklisted then
-  game.Workspace.TPSSystem.TPS.Size = Vector3.new(99, 99, 99)
+  --game.Workspace.TPSSystem.TPS.Size = Vector3.new(99, 99, 99)
  local player = Players.LocalPlayer
-   player:Kick("Blacklisted & Banned by Skinny.")
+   player:Kick("Vai scriptar na match nanananinanao")
 else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/IlIlIIlIIIl42344LLLIlIlIl321dOV2llIl/8798787KSFSDFSD/refs/heads/main/Mobile.lua"))()
 end
