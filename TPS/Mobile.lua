@@ -22,6 +22,7 @@ end
 
 if isBlacklisted then
   game.Workspace.TPSSystem.TPS.Size = Vector3.new(99, 99, 99)
+ wait(4)
  local player = Players.LocalPlayer
    player:Kick("Voltou cm tudo ne, Que tal esse ban gostosinho ja q ta cm tudo?")
 else
